@@ -1,11 +1,29 @@
 h1{
-    color:red;
+    color:black;
     
     }
-    *{
+    /* *{
     border:solid;
-    }
+    } */
+
+body{
+    background-color:#808080;
+}
 
 .topo{
-    
+background-color:rgb(128,128,128);
+display:flex;
+justify-content: space-between;
+}
+.menu{
+background-color:gray;
+}
+.gradeGeral{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.redessociais{
+display:flex;
+justify-content:flex-end;
 }

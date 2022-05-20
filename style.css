@@ -1,5 +1,6 @@
 h1{
     color:black;
+    background-color:#AAAAAA;
     
     }
     /* *{
@@ -9,14 +10,25 @@ h1{
 body{
     background-color:#808080;
 }
+h2{
+background-color:#AAAAAA;
+}
+
 
 .topo{
-background-color:rgb(128,128,128);
+background-color:#AAAAAA;
 display:flex;
 justify-content: space-between;
+
 }
 .menu{
 background-color:gray;
+/*border: solid;*/
+}
+.menudomenu{
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 20px;
 }
 .gradeGeral{
 display:flex;
@@ -26,4 +38,16 @@ justify-content:space-evenly;
 .redessociais{
 display:flex;
 justify-content:flex-end;
+}
+.Projeto{
+    background-color:#6E6E6E;
+    text-align:center;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    border-style:dashed;
+    font-size:20px;
+    text-decoration-line:underline;
+    text-shadow: 1px 1px white;
+
 }
